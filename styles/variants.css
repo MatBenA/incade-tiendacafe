@@ -1,0 +1,70 @@
+.variants {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 40px 26px;
+}
+
+.variants > p {
+  font-family: Lato;
+  color: darkgoldenrod;
+  margin-bottom: 0px;
+}
+
+.variants h2 {
+  font-family: Oswald;
+  font-weight: bolder;
+  font-size: 36px;
+  margin: 20px;
+}
+
+.variants hr {
+  width: 120px;
+  height: 2px;
+  background-color: darkgoldenrod;
+  border: none;
+  margin-bottom: 40px;
+}
+
+.variants .descriptions {
+  display: flex;
+}
+
+.variants article {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 320px;
+}
+
+.variants .descriptions p {
+  color: #777777;
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.variants h3 {
+  color: darkgoldenrod;
+  font-family: Oswald;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.variants .right {
+  text-align: end;
+}
+
+.variants .left {
+  text-align: start;
+}
+
+.variants .descriptions img {
+  margin: 0 45px;
+  max-width: 800px;
+  width: 50vw;
+  height: auto;
+  object-fit: contain;
+}

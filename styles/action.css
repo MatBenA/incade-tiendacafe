@@ -1,0 +1,58 @@
+.action {
+  background-image: url("https://tiendadecafe.com.ar/wp-content/uploads/2021/03/home-tienda.jpg?id=425");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.action .over-h2 {
+  font-family: Oswald;
+  font-size: 48px;
+  font-weight: 200;
+  color: white;
+  margin: 0px;
+}
+
+.action h2 {
+  font-family: Oswald;
+  font-size: 68px;
+  font-weight: 600;
+  color: #C7A17A;;
+  margin: 0px
+}
+
+.action p {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.action button {
+  width: fit-content;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: bolder;
+  padding: 12px 28px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid darkgrey;
+  cursor: pointer;
+  transition: ease 200ms;
+}
+
+.action button:hover {
+  border: 2px solid white;
+}

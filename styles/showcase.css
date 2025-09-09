@@ -1,0 +1,58 @@
+.showcase {
+  max-width: 1500px;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.showcase a {
+  text-decoration: none;
+  flex-grow: 1;
+  aspect-ratio: 7/4;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: end;
+  padding: 30px;
+}
+
+.showcase article {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.showcase p {
+  background-color: white;
+  color: black;
+  max-width: max-content;
+  margin: 0;
+  padding: 6px 10px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.showcase h2 {
+  font-family: Oswald;
+  font-weight: 700;
+  font-size: 36px;
+  color: white;
+  margin: 0;
+}
+
+.showcase button {
+  background-color: black;
+  color: white;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 10px 12px;
+  border: none;
+  width: max-content;
+  cursor: pointer;
+}

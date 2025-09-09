@@ -1,0 +1,51 @@
+.products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 30px;
+}
+
+.products h2 {
+  font-family: Oswald;
+  font-weight: 700;
+  font-size: 36px;
+  color: #2d2a2a;
+}
+
+.products hr {
+  width: 120px;
+  height: 2px;
+  border: none;
+  background-color: darkgoldenrod;
+  margin-bottom: 40px;
+}
+
+.products .list {
+  display: flex;
+  font-family: Oswald;
+  justify-content: space-between;
+  gap: 30px;
+  width: 100%;
+  max-width: 1500px;
+}
+
+.products figure{
+  margin: 0;
+}
+
+.products figure img {
+  margin: 0;
+  width: 100%;
+  max-width: 290px;
+  cursor: pointer;
+}
+
+.products figcaption {
+  text-align: center;
+  cursor: pointer;
+  transition: ease 200ms;
+}
+
+.products figcaption:hover {
+  color: darkgrey;
+}
