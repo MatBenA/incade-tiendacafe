@@ -13,8 +13,8 @@
 }
 
 .navbar img {
-  padding: 10px 0;
-  width: 80px;
+  padding: 0.625rem 0;
+  width: 5rem;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -30,8 +30,8 @@
   text-decoration: none;
   color: white;
   font-family: Oswald;
-  font-size: 13px;
-  padding: 0 15px;
+  font-size: 0.813rem;
+  padding: 0 0.938rem;
   transition: ease 200ms;
 }
 
