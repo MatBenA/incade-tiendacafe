@@ -5,14 +5,22 @@ Requisitos:
 * Tener git instalado
 
 Para descargar ejecutar
-```git clone https://github.com/MatBenA/incade-tiendacafe.git```
-```cd incade-tiendacafe```
+```bash
+$ git clone https://github.com/MatBenA/incade-tiendacafe.git```
+$ cd incade-tiendacafe
+```
 
 # Instalar
-```npm install```
+```bash
+$ npm install
+```
 
 # Ejecutar
-```npm run dev```
+```bash
+npm run dev
+```
 
 Para ejecutar en la red local y acceder desde movil
-```npm run dev -- --host```
+```bash
+$ npm run dev -- --host
+```
