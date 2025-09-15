@@ -6,13 +6,13 @@ Requisitos:
 
 Para descargar ejecutar
 ```bash
-$ git clone https://github.com/MatBenA/incade-tiendacafe.git```
-$ cd incade-tiendacafe
+git clone https://github.com/MatBenA/incade-tiendacafe.git
+cd incade-tiendacafe
 ```
 
 # Instalar
 ```bash
-$ npm install
+npm install
 ```
 
 # Ejecutar
@@ -22,5 +22,5 @@ npm run dev
 
 Para ejecutar en la red local y acceder desde movil
 ```bash
-$ npm run dev -- --host
+npm run dev -- --host
 ```
