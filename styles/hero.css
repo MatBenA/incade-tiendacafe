@@ -1,5 +1,6 @@
+/* Hero Section - Para demostración */
 .hero {
-  background-image: url("https://tiendadecafe.com.ar/wp-content/uploads/2021/03/sidebar_cafe01.jpg");  
+  background-image: url("https://tiendadecafe.com.ar/wp-content/uploads/2021/03/sidebar_cafe01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -13,7 +14,8 @@
   display: flex;
   flex-direction: column;
   max-width: 75%;
-  width:100%;
+  width: 100%;
+  padding: 20px;
 }
 
 .hero h1 {
@@ -54,6 +56,16 @@
   transition: ease 200ms;
 }
 
-.hero button:hover{
+.hero button:hover {
   border: 2px solid white;
+}
+
+@media screen and (max-width: 768px) {
+  .hero h1 {
+    font-size: 48px;
+  }
+
+  .hero .over-title {
+    font-size: 32px;
+  }
 }

@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="/styles/variants.css" />
     <link rel="stylesheet" href="/styles/action.css" />
     <link rel="stylesheet" href="/styles/footer.css" />
+    <link rel="stylesheet" href="/styles/hamburger.css" />
+    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -29,14 +31,23 @@
     <title>Tienda de Café</title>
   </head>
   <body>
+    <div class="overlay" id="overlay"></div>
+
     <header class="navbar">
-      <a href="/">
+      <a href="/" class="logo">
         <img
           src="https://tiendadecafe.com.ar/wp-content/uploads/2021/02/tienda-de-cafe.png"
           alt="Tienda de café"
         />
       </a>
-      <nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="nav">
         <ul>
           <li>
             <a href="https://tiendadecafe.com.ar/tienda/">NUESTRO CAFÉ</a>
@@ -50,7 +61,7 @@
           </li>
           <li>
             <a href="https://tiendadecafe.com.ar/trabaja-en-tdc/"
-              >TRABAJÁCON NOSOTROS</a
+              >TRABAJÁ CON NOSOTROS</a
             >
           </li>
           <li>
@@ -314,5 +325,7 @@
         </form>
       </nav>
     </footer>
+
+    <script src="/scripts/hamburger.js"></script>
   </body>
 </html>
