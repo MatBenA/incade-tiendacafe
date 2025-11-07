@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="/styles/action.css" />
     <link rel="stylesheet" href="/styles/footer.css" />
     <link rel="stylesheet" href="/styles/hamburger.css" />
+    <link rel="stylesheet" href="/styles/subscribers.css" />
     
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -291,7 +292,15 @@
             <label for="email">Email</label>
             <input id="email" type="email" placeholder="Tu email" required />
           </div>
-          <button>SUSCRIBIRME</button>
+          <button type="submit">SUSCRIBIRME</button>
+
+          <!-- Lista de suscriptores -->
+          <div id="subscribers-container">
+            <h4>SUSCRIPTORES</h4>
+            <div id="subscribers-list">
+              <!-- Los suscriptores se cargarán aquí dinámicamente -->
+            </div>
+          </div>
 
           <h4>CONECTATE CON NOSOTROS</h4>
           <div class="social-net">
@@ -327,5 +336,6 @@
     </footer>
 
     <script src="/scripts/hamburger.js"></script>
+    <script src="/scripts/subscribers.js"></script>
   </body>
 </html>
